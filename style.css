@@ -46,6 +46,10 @@ body {
     padding: 5px;
     
 }
+.resm{
+    border: 1px dotted yellow;
+    background: transparent;
+}
 .leftside p{
     padding-left: 100px;
 }
