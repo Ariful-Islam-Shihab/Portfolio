@@ -1,14 +1,16 @@
-.nav-items{
+.nav-items {
     float: inline-end;
     color: #fff;
 }
-nav{
+
+nav {
     position: sticky;
 }
+
 body {
     margin: 0;
     height: 100vh;
-    background: linear-gradient(-45deg, #000000, #bb1313, #eb6d07, #0509f8);
+    background: radial-gradient(circle at top left, #000000, #bb1313, #eb6d07, #0509f8);
     background-size: 600% 600%;
     animation: myfun 20s ease infinite;
     color: white;
@@ -18,16 +20,18 @@ body {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
 }
 
 
-.navbar{
+.navbar {
     border-radius: 5px;
     background: transparent !important;
     color: #fff;
@@ -35,75 +39,85 @@ body {
     position: sticky;
     z-index: 1000;
 }
-.navbar-nav{
+
+.navbar-nav {
     align-items: center;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #ffd900 !important;
 }
-.leftside{
-    width: 50%;
-    padding: 5px;
-    
+
+.leftside {
+    width: 40%;
+    /* padding: 5px; */
+
 }
-.resm{
-    border: 1px dotted yellow;
+
+.rightside {
+    width: 40%;
+}
+
+.resm {
     background: transparent;
 }
-.leftside p{
+
+/* .leftside p{
     padding-left: 100px;
-}
-.name{
+} */
+.name {
     font-size: 3rem;
     font-weight: 500;
 
 }
-.title{
+
+.title {
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 15px;
 }
-.intro{
+
+.intro {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
     background: transparent;
     align-items: center;
-    flex-wrap: wrap;
 }
-.shortIntro{
+
+.shortIntro {
     width: 80%;
     font-size: 1.2rem;
     font-weight: 300;
 }
-.rightside{
-    position: relative;
-    margin-bottom: 0;
-    margin-left: 100px;
-}
-.gthub:hover{
+
+.gthub:hover {
     color: #790707;
 }
-.card-body.project{
+
+.card-body.project {
     align-items: center;
     text-align: center;
     position: relative;
 }
-.card{
+
+.card {
     margin: 15px;
 }
-.projects{
+
+.projects {
     align-items: center;
     justify-content: center;
 }
 
-#ic{
+#ic {
     position: absolute;
     bottom: 10px;
     left: 50%;
 }
-.card-text{
+
+.card-text {
 
     align-items: center;
     align-self: center;
@@ -113,20 +127,25 @@ body {
     bottom: 30%;
     margin-left: 15px; */
 }
-.shmr{
+
+.shmr {
     background: #ff0303;
     color: #fff;
     transition: 0.8 ease;
 }
-.shmr:hover,.smr:hover{
+
+.shmr:hover,
+.smr:hover {
     background-color: #088178;
 }
-.gallery{
+
+.gallery {
     width: 900px;
     display: flex;
     overflow-x: scroll;
 }
-.gallery div{
+
+.gallery div {
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -134,23 +153,171 @@ body {
     padding: 10px;
     flex: none;
 }
-.gallery div img{
+
+.gallery div img {
     width: 250px;
     filter: grayscale(100%);
     transition: transform 0.5s;
 
 }
-.gallery::-webkit-scrollbar{
+
+.gallery::-webkit-scrollbar {
     display: none;
 }
-.gallery-wrap{
+
+.gallery-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
     /* margin: 10% auto; */
 }
-.gallery div img:hover{
+
+.gallery div img:hover {
     filter: grayscale(0);
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.animated-gradient-text {
+    font-size: 5em;
+    font-weight: bold;
+    background: linear-gradient(-45deg, #8e2de2, #4a00e0, #0f2027, #2c5364);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: myfun 5s ease infinite;
+    text-align: center;
+    background-size: 500% 500%;
+    height: 100px;
+    /* Stroke (border) */
+    -webkit-text-stroke: 1px white;
+}
+
+.prr {
+    background: linear-gradient(-45deg, #ff6a00, #ee0979, #ff6ec4, #f7ff00);
+    font-size: 5em;
+    font-weight: bold;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: myfun 5s ease infinite;
+    text-align: center;
+    background-size: 500% 500%;
+    height: 100px;
+    /* Stroke (border) */
+    -webkit-text-stroke: 1px white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.absr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+#exampleFormControlInput1,
+#subject {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+}
+
+#exampleFormControlTextarea1 {
+    height: 130px;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+}
+
+.footer {
+    justify-content: center;
+}
+
+footer {
+    background: #000000;
+    margin-top: 15px;
+    width: 100%;
+}
+
+@media(max-width:799px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: transparent;
+        align-items: center;
+
+    }
+
+    .name {
+        font-size: 3rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .myimg {
+        width: 100%;
+    }
+
+    .leftside {
+        width: 70%;
+        /* padding: 5px; */
+    }
+
+    .title {
+        width: 100%;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .shortIntro {
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .projects {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gallery div img {
+        width: 100%;
+
+    }
+
+    .absr {
+        height: 100% !important;
+        align-items: center;
+        width: 100% !important;
+    }
+
+    body {
+        animation: mf 15s ease infinite;
+        background-size: 500% 500%;
+    }
+
+    @keyframes mf {
+        0% {
+            background-position: 0% 0%;
+        }
+
+        50% {
+            background-position: 100% 0%;
+        }
+
+        100% {
+            background-position: 0% 0%;
+        }
+    }
 }
