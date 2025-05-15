@@ -5,10 +5,28 @@
 nav{
     position: sticky;
 }
-body{
-    background: linear-gradient(45deg,#000,#790707);
-    color: #fff;
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, #000000, #bb1313, #eb6d07, #0509f8);
+    background-size: 600% 600%;
+    animation: myfun 20s ease infinite;
+    color: white;
 }
+
+@keyframes myfun {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
 .navbar{
     border-radius: 5px;
     background: transparent !important;
