@@ -10,7 +10,7 @@ nav {
 body {
     margin: 0;
     height: 100vh;
-    background: radial-gradient(circle at top left, #000000, #bb1313, #eb6d07, #0509f8);
+    background: radial-gradient(circle at top left, #046C4E, #0B6E4F, #014F86, #003B36);
     background-size: 600% 600%;
     animation: myfun 20s ease infinite;
     color: white;
@@ -39,13 +39,24 @@ body {
     position: sticky;
     z-index: 1000;
 }
-
+#navlas{
+    position: relative;
+}
 .navbar-nav {
     align-items: center;
 }
-
+#navlas li a::after,
+#navlas li a:hover::after{
+  content: "";
+  width: 5%;
+  height: 2px;
+  background-color: rgb(8, 180, 143);
+  position:absolute;
+  bottom: 0px;
+  left: 25px;
+}
 .nav-link:hover {
-    color: #ffd900 !important;
+    color: #08d144 !important;
 }
 
 .leftside {
@@ -93,13 +104,12 @@ body {
 }
 
 .gthub:hover {
-    color: #790707;
+    color: #0dc569;
 }
 
 .card-body.project {
     align-items: center;
     text-align: center;
-    position: relative;
 }
 
 .card {
@@ -320,4 +330,20 @@ footer {
             background-position: 0% 0%;
         }
     }
+}
+
+::placeholder{
+    -webkit-text-fill-color: #fff;
+}
+.blg-text{
+    text-align: start;
+}
+.blg-title{
+    text-align: center;
+}
+.blg-title:nth-child(1){
+    font-size: 5rem;
+}
+.blg-title:nth-child(2){
+    font-size: 3rem;
 }
