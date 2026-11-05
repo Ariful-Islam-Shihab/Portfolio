@@ -1,0 +1,24 @@
+# Ariful Islam Shihab - Curriculum Vitae
+
+This is a placeholder file. Replace this with your actual CV PDF.
+
+## Instructions:
+1. Generate your CV as a PDF file
+2. Name it `cv.pdf`
+3. Place it in the `public/` folder
+4. The download buttons throughout the site will automatically link to this file
+
+## Current Status:
+- This is a placeholder file
+- The actual PDF should be placed at: `public/cv.pdf`
+- All download buttons point to `/cv.pdf`
+
+## Expected CV Content:
+- Personal Information
+- Education (UIU CSE, expected Feb 2027)
+- Research Experience (STGW-AFL, ICCIT 2025, ICCIT 2026)
+- Publications
+- Projects
+- Technical Skills
+- Achievements (Valedictorian, etc.)
+- Contact Information
