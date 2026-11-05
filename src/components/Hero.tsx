@@ -134,7 +134,7 @@ export function Hero() {
           >
             <Button
               size="lg"
-              onClick={() => scrollToSection('#research')}
+              onClick={() => scrollToSection('#publications')}
               className="group"
             >
               View Research

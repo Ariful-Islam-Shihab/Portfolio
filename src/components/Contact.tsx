@@ -31,7 +31,7 @@ export function Contact() {
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.6 }}
         >
-          <span className="section-number">10 / CONTACT</span>
+          <span className="section-number">08 / CONTACT</span>
           <h2 id="contact-title" className="section-title">Let's Build Something Meaningful</h2>
           <p className="section-subtitle">
             I'm always interested in research discussions, collaborations, interesting engineering problems, 

@@ -93,7 +93,7 @@ export function About() {
             </div>
 
             <div className="flex flex-wrap gap-3 pt-4">
-              <Button variant="secondary" onClick={() => scrollToSection('#research')}>
+              <Button variant="secondary" onClick={() => scrollToSection('#publications')}>
                 <FlaskConical className="w-4 h-4 mr-2" aria-hidden="true" />
                 View Research
               </Button>

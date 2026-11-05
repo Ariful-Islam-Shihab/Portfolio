@@ -31,10 +31,10 @@ export function Skills() {
           whileInView="show"
           viewport={viewportOnce}
         >
-          <span className="section-number">07 / SKILLS</span>
+          <span className="section-number">05 / SKILLS</span>
           <h2 id="skills-title" className="section-title">Technical Skills</h2>
           <p className="section-subtitle">
-            Organized by domain. No arbitrary percentages — just technologies I actively use and understand.
+            Core languages, frameworks, and tools across machine learning, full-stack software, and embedded systems.
           </p>
           <div className="section-separator mt-8 mx-auto max-w-xs" />
         </motion.div>

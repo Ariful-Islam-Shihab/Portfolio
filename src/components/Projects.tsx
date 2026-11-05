@@ -86,7 +86,7 @@ export function Projects() {
           whileInView="show"
           viewport={viewportOnce}
         >
-          <span className="section-number">06 / PROJECTS</span>
+          <span className="section-number">04 / PROJECTS</span>
           <h2 id="projects-title" className="section-title">Projects</h2>
           <p className="section-subtitle">
             Research implementations, embedded systems, full-stack applications, and developer tools.
