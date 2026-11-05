@@ -183,7 +183,7 @@ export const projects: Project[] = [
         icon: 'globe',
       },
     ],
-    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'NextAuth', 'WebSockets', 'TipTap', 'Redis'],
+    technologies: ['Spring Boot', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/Ariful-Islam-Shihab/ResearchHub',
     demo: '',
     image: '',
